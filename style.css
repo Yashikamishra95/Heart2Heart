@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+  .navbar-nav{
+      text-align: center;
+      background-color:white;
+      
+  }
+}
+.hero-slide {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.hero-heading {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.hero-paragraph {
+  margin-bottom: 20px;
+}
+.hero-button {
+  background-color: #ec0c71; /* Bootstrap primary color */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.about-section {
+  padding: 60px 0;
+}
+.about-image {
+  max-width: 100%;
+  height: auto;
+}
+.tab-content {
+  margin-top: 20px;
+}

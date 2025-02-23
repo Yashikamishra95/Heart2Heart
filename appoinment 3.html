@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Slot | Mental Health Check Chatbot</title>
+    <link rel="stylesheet" href="appoinment 4.css">
+    <script src="appoinment 5.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Book Your Appointment</h1>
+        <p>Fill in your details to book a slot with one of our therapists.</p>
+    </header>
+
+    <!-- Appointment Form -->
+    <section class="appointment-form">
+        <form action="#" method="post" id="bookingForm">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="age">Your Age:</label>
+                <input type="number" id="age" name="age" required placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <label for="email">Your email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="problem">Your Problem:</label>
+                <textarea id="problem" name="problem" rows="4" required placeholder="Describe your mental health concern"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="timeslot">Preferred Time Slot:</label>
+                <select id="timeslot" name="timeslot" required>
+                    <option value="">Select a Time Slot</option>
+                    <option value="9:00 AM - 10:00 AM">9:00 AM - 10:00 AM</option>
+                    <option value="10:00 AM - 11:00 AM">10:00 AM - 11:00 AM</option>
+                    <option value="11:00 AM - 12:00 PM">11:00 AM - 12:00 PM</option>
+                    <option value="1:00 PM - 2:00 PM">1:00 PM - 2:00 PM</option>
+                    <option value="2:00 PM - 3:00 PM">2:00 PM - 3:00 PM</option>
+                    <option value="3:00 PM - 4:00 PM">3:00 PM - 4:00 PM</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <button type="submit" class="submit-button">Book My Slot</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Mental Health Chatbot. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

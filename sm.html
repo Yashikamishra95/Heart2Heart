@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Cards</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f9dede;
+    }
+    
+    .card {
+        width: 80%;
+        max-width: 600px;
+        padding: 20px;
+        border-radius: 15px;
+        margin: 10px;
+        color: #000;
+        font-size: 1.2em;
+        font-weight: bold;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        background-size: cover;
+        background-position: right;
+        text-align: center;
+    }
+    
+    .time {
+        font-size: 0.9em;
+        font-weight: normal;
+    }
+
+    .timer {
+        font-size: 1.2em;
+        margin-top: 10px;
+        color: red;
+    }
+
+    .start-btn {
+        margin-top: 10px;
+        padding: 5px 10px;
+        border: none;
+        background-color: darkblue;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .start-btn:hover {
+        background-color: navy;
+    }
+
+    .red {
+        background: url('red.jpeg') no-repeat;
+        background-color: #f65555;
+        background-size: cover;
+    }
+    .red:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .blue {
+        background: url('blue.jpeg') no-repeat;
+        background-color: #559df6;
+        background-size: cover;
+    }
+    .blue:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .cyan {
+        background: url('cyan.jpeg') no-repeat;
+        background-color: #2ae2efb3;
+        background-size: cover;
+    }
+    .cyan:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .grey {
+        background: url('red.jpeg') no-repeat;
+        background-color: #f0d4d437;
+        background-size: cover;
+    }
+    .grey:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .lightgreen {
+        background: url('light.jpeg') no-repeat;
+        background-color: #7cec70;
+        background-size: cover;
+    }
+    .lightgreen:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .green {
+        background: url('green.jpeg') no-repeat;
+        background-color: #1a6112;
+        background-size: cover;
+    }
+    .green:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    
+    .beige {
+        background: url('beige.jpeg') no-repeat;
+        background-color: #e9c794;
+        background-size: cover;
+    }
+    .beige:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .brown {
+        background: url('brown.jpeg') no-repeat;
+        background-color: white;
+        background-size: cover;
+        color: white;
+    }
+    .brown:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    
+    .orange {
+        background: url('orange.jpeg') no-repeat;
+        background-color: #f4a261;
+        background-size: cover;
+    }
+    .orange:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .purple {
+        background: url('purple.jpeg') no-repeat;
+        background-color: rgb(113, 34, 113);
+        background-size: cover;
+    }
+    .purple:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+    .head{
+        color: darkblue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+</style> 
+</head>
+<body>
+
+    <div class="head">
+        <h2><u>Emotional Resource</u></h2>
+    </div>
+    <br><br>
+
+    <div class="card red">
+        <p class="time">4 min</p>
+        <p class="title">Find a connection</p>
+        <p class="timer">4:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <div class="card blue">
+        <p class="time">2 min</p>
+        <p class="title">Calm yourself</p>
+        <p class="timer">2:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <div class="card cyan">
+        <p class="time">2 min</p>
+        <p class="title">Accept Emotions</p>
+        <p class="timer">2:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <div class="card grey">
+        <p class="time">3 min</p>
+        <p class="title">Feel compassion for others</p>
+        <p class="timer">3:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <div class="card lightgreen">
+        <p class="time">2 min</p>
+        <p class="title">Practice gratitude</p>
+        <p class="timer">2:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <div class="card green">
+        <p class="time">3 min</p>
+        <p class="title">Take a breath</p>
+        <p class="timer">3:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <div class="card beige">
+        <p class="time">3 min</p>
+        <p class="title">Identify your values</p>
+        <p class="timer">3:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <div class="card brown">
+        <p class="time">2 min</p>
+        <p class="title">Recognize your strength</p>
+        <p class="timer">2:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <div class="card orange">
+        <p class="time">4 min</p>
+        <p class="title">Warm up</p>
+        <p class="timer">4:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <div class="card purple">
+        <p class="time">3 min</p>
+        <p class="title">Release tension</p>
+        <p class="timer">3:00</p>
+        <button class="start-btn">Start Timer</button>
+    </div>
+
+    <script>
+        document.querySelectorAll(".card").forEach(card => {
+            let timeText = card.querySelector(".time").textContent;
+            let minutes = parseInt(timeText); 
+            let totalSeconds = minutes * 60; 
+
+            let timerDisplay = card.querySelector(".timer");
+            let startButton = card.querySelector(".start-btn");
+            let countdown;
+
+            startButton.addEventListener("click", function() {
+                clearInterval(countdown);
+                let secondsLeft = totalSeconds;
+
+                function updateTimer() {
+                    let mins = Math.floor(secondsLeft / 60);
+                    let secs = secondsLeft % 60;
+                    timerDisplay.textContent = `${mins}:${secs < 10 ? "0" : ""}${secs}`;
+                    if (secondsLeft > 0) {
+                        secondsLeft--;
+                    } else {
+                        clearInterval(countdown);
+                        timerDisplay.textContent = "Time's up!";
+                    }
+                }
+
+                updateTimer();
+                countdown = setInterval(updateTimer, 1000);
+            });
+        });
+    </script>
+
+</body>
+</html>

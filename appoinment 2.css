@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #2d5f73;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* Therapist Section */
+.therapists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.therapist {
+    background-color: white;
+    width: 30%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.therapist:hover {
+    transform: scale(1.05);
+}
+
+.therapist-img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.therapist-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.therapist-info {
+    padding: 20px;
+}
+
+.therapist-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.therapist-info p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.book-link {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #2d5f73;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.book-link:hover {
+    color: #245b66;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d5f73;
+    color: white;
+}
